@@ -8,9 +8,12 @@
 
 :root {
   font-size: 62.5%;
-  --color-dark: #065e7c;
-  --color-dark-300: rgba(255, 255, 255, 0.2);
-  --color-dark-100: #387e96;
+
+  --hue: 400;
+  --color-dark: hsl(var(--hue), 91%, 25%);
+  --color-dark-300: hsla(0, 0%, 100%, 0.2);
+  --color-dark-100: hsl(var(--hue), 46%, 40%);
+}
 }
 #app {
   display: grid;
